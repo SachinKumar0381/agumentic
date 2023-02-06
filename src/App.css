@@ -1,38 +1,100 @@
-.App {
+
+.navbar{
+  padding-top: 20px;
+}
+.nav:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+.firstleft{
+  width: 28%;
+  margin-top: 200px;
+  margin-left: 200px;
+}
+.gray{
+  color: gray;
+}
+.head{
+  font-size:40px;
+}
+.smallp{
+  font-size: small;
+  margin-bottom: 20px;
+}
+.first{
+  margin-bottom: 100px;
+  border: 1px solid white;
+  height: 100vh;
+  background-image: url("https://images.cdn1.stockunlimited.net/preview1300/man-working-on-laptop_1559583.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+.center{
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.widt{
+  width: 30%;
+  margin-left: 35%;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.greenh{
+  color: rgb(7, 160, 99);
+  font-size: 60px;
+  font-weight: bold;
+  text-align: center;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.num{
+  margin-top: 100px;
+  width: 20%;
+  border: 1px solid rgb(230, 230, 230);
+  padding: 50px 40px;
+  margin-bottom: 100px;
+}
+.mp{
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+.secimg{
+  margin: auto;
+  width: 70%;
+}
+.marcen{
+  margin-left: 50%;
+  margin-bottom: 100px;
+}
+.thrimg{
+  margin: auto;
+  margin-top: 50px;
+}
+.lastleft{
+  width: 28%;
+  margin-top: 200px;
+  margin-left: 700px;
+}
+.last{
+  margin-top: 100px;
+  margin-bottom: 100px;
+  border: 1px solid white;
+  height: 100vh;
+  background-image: url("https://thumbs.dreamstime.com/b/naughty-boy-sleeping-school-resting-his-head-desk-lesson-vector-illustration-naughty-boy-sleeping-school-resting-165821053.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left;
+}
+.inp{
+  width: 30%;
+  border: 1px solid rgb(210, 210, 210);
+  height: 40px;
+  margin-left: 35%;
+  margin-top: 50px;
+}
+.subs{
+  background-color: rgb(3, 180, 141);
   color: white;
+  height: 40px;
+  padding: 2px 10px;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.soc{
+  font-size: larger;
+  padding-left: 20px;
 }
